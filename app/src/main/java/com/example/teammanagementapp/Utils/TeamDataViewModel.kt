@@ -13,5 +13,4 @@ class TeamDataViewModel : ViewModel() {
     fun setData(__data: ArrayList<TeamData>) {
         mutableLiveData.value = __data
     }
-
 }
